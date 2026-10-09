@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./",
+  base: "/brooklyn-website/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
